@@ -1,11 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Blazor.Twilio.Video.Server.Services;
+using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
 namespace Blazor.Twilio.Video.Server.Controllers
 {
-    public class TwilioController
+    [
+        ApiController,
+        Route("api/twilio")
+    ]
+    public class TwilioController : ControllerBase
     {
+        [HttpGet("token")]
+        public IActionResult GetToken(
+            [FromServices] TwilioService twilioService) =>
+             new JsonResult(twilioService.GetTwilioJwt(User.Identity.Name));
+
+        [HttpGet("rooms")]
+        public async Task<IActionResult> GetRooms(
+            [FromServices] TwilioService twilioService) =>
+            new JsonResult(await twilioService.GetAllRoomsAsync());
     }
 }

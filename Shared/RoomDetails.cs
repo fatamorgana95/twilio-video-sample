@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Blazor.Twilio.Video.Shared
+﻿namespace Blazor.Twilio.Video.Shared
 {
-    class RoomDetails
+    public class RoomDetails
     {
+        public string? Id { get; set; } = null!;
+        public string? Name { get; set; } = null!;
+        public int ParticipantCount { get; set; }
+        public int MaxParticipants { get; set; }
     }
 }

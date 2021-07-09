@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Blazor.Twilio.Video.Client.Pages
 {
-    public class Index
+    public partial class Index
     {
     }
 }

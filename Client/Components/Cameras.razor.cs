@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Blazor.Twilio.Video.Client.Components
 {
-    public class Cameras
+    public partial class Cameras
     {
     }
 }
