@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Blazor.Twilio.Video.Shared
+﻿namespace Blazor.Twilio.Video.Shared
 {
-    class Device
+    public class Device
     {
+        public string DeviceId { get; set; } = null!;
+        public string Label { get; set; } = null!;
     }
 }
