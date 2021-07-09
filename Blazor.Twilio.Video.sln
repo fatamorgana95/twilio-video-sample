@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Twilio.Video.Server", "Server\Blazor.Twilio.Video.Server.csproj", "{606ED219-299F-4A57-B184-5B21B574CCB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Twilio.Video.Client", "Client\Blazor.Twilio.Video.Client.csproj", "{68DED8AD-D2F0-42DD-87D3-5E0A0FE019EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Twilio.Video.Shared", "Shared\Blazor.Twilio.Video.Shared.csproj", "{1A5429BB-3F24-4648-849D-5E2F0063C09E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{606ED219-299F-4A57-B184-5B21B574CCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606ED219-299F-4A57-B184-5B21B574CCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606ED219-299F-4A57-B184-5B21B574CCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606ED219-299F-4A57-B184-5B21B574CCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DED8AD-D2F0-42DD-87D3-5E0A0FE019EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DED8AD-D2F0-42DD-87D3-5E0A0FE019EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DED8AD-D2F0-42DD-87D3-5E0A0FE019EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DED8AD-D2F0-42DD-87D3-5E0A0FE019EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5429BB-3F24-4648-849D-5E2F0063C09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5429BB-3F24-4648-849D-5E2F0063C09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5429BB-3F24-4648-849D-5E2F0063C09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5429BB-3F24-4648-849D-5E2F0063C09E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {442E50FD-972E-45B7-B0D2-211E81F66570}
+	EndGlobalSection
+EndGlobal
